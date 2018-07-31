@@ -1,0 +1,17 @@
+{
+  "projectileName": "dks501_mag3",
+  "image": "dks501_mag.png",
+  "animationCycle": 0.25,
+  "physics": "stickygrenade",
+  "piercing": true,
+  "flippable": true,
+  "bounces": -1,
+  "speed": 0,
+  "renderLayer": "Player+1",
+  "frameNumber": 1,
+  "timeToLive": 2,
+  "damageKindImage": "icon.png",
+  "power": 0,
+  "damageType": "NoDamage",
+  "damageKind": "default"
+}

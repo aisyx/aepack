@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": {
+        "name": "gs_dks501"
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "author" : "Aisyx, Keiku",
+  "friendlyName" : "AE Gunpack for Lyetzi's Gunners Mod",
+  "name" : "aepack",
+  "description" : "Add-on for Lyetzi's Gunners Mod",
+  "priority" : 0,
+  "requires" : ["Lyetzi's Gunners Mod"],
+  "tags" : "Weapons|Mechanics",
+  "version" : "0.1.0"
+}

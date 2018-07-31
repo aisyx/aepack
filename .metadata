@@ -1,7 +1,7 @@
 {
   "author" : "Aisyx, Keiku",
-  "friendlyName" : "AE Gunpack for Lyetzi's Gunners Mod",
-  "name" : "aepack",
+  "friendlyName" : "DKS-501 Reservist's Rifle for Lyetzi's Gunners Mod",
+  "name" : "ae_dks501",
   "description" : "Add-on for Lyetzi's Gunners Mod",
   "priority" : 0,
   "requires" : ["Lyetzi's Gunners Mod"],

@@ -1,10 +1,12 @@
 {
   "author" : "Aisyx, Keiku",
-  "friendlyName" : "DKS-501 Reservist's Rifle for Lyetzi's Gunners Mod",
-  "name" : "ae_dks501",
   "description" : "Add-on for Lyetzi's Gunners Mod",
+  "friendlyName" : "DKS-501 Reservist's Rifle for Lyetzi's Gunners Mod",
+  "link" : "steam://url/CommunityFilePage/1460586609",
+  "name" : "ae_dks501",
   "priority" : 0,
   "requires" : ["Lyetzi's Gunners Mod"],
+  "steamContentId" : "1460586609",
   "tags" : "Weapons|Mechanics",
   "version" : "0.1.0"
 }

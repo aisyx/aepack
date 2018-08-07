@@ -5,6 +5,7 @@ Add-on for [Lyetzi's Gunners Mod](https://community.playstarbound.com/resources/
 The following guns have been completed:
 
   1. [DKS-501 Reservist's Rifle](http://fallout.wikia.com/wiki/Reservist's_rifle)
+  2. [DKS-501 Gobi Campaign Scout Rifle](http://fallout.wikia.com/wiki/Gobi_Campaign_scout_rifle)
 
 To see just the assets used for each weapon, they have been isolated to their own branches (e.g., `feature/gs_dks501`).
 

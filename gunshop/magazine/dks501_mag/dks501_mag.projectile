@@ -1,0 +1,24 @@
+{
+  "projectileName": "dks501_mag",
+  "image": "icon.png",
+  "animationCycle": 0.4,
+  "physics": "grenade",
+  "piercing": true,
+  "flippable": true,
+  "bounces": 1,
+  "speed": 20,
+  "renderLayer": "Player+1",
+  "frameNumber": 1,
+  "timeToLive": 0.1,
+  "damageKindImage": "icon.png",
+  "power": 0,
+  "damageType": "NoDamage",
+  "damageKind": "default",
+  "actionOnReap": [
+    {
+      "action": "projectile",
+      "type": "dks501_mag2",
+      "directional": "true"
+    }
+  ]
+}

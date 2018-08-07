@@ -1,11 +1,11 @@
 {
-  "itemName": "gs_dks501",
+  "itemName": "gs_gobi",
   "price": 27000,
   "inventoryIcon": "icon.png",
   "maxStack": 1,
   "rarity": "common",
   "level": 1,
-  "shortdescription": "DKS-501 Reserve",
+  "shortdescription": "DKS-501 Gobi",
   "category": "^#7c7c7c;U.S. Military",
   "description":
 "^#7c7c7c;.308 Winchester = ^white;37^#7c7c7c;00J
@@ -415,7 +415,7 @@
     "inaccuracy": 0,
     "projectileCount": 1,
     "fireType": "auto",
-    "projectileType": "dks501_mag",
+    "projectileType": "gobi_mag",
     "projectileParameters": {
       "speed": 10
     },

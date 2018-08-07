@@ -7,5 +7,14 @@
         "name": "gs_dks501"
       }
     }
+  },
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": {
+        "name": "gs_gobi"
+      }
+    }
   }
 ]

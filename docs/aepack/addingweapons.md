@@ -19,5 +19,13 @@
 ^#7c7c7c;Rate of fire = ^white;${rpm}^#7c7c7c;rpm
 ```
 
-1. Time the amount of time (x) it takes to expend a magazine's capacity (y).
+1. Take the amount of time (x) it takes to expend a magazine's capacity (y).
 2. RPM = `( y / x ) * 60`.
+
+### Pricing
+
+The price in pixels can be determined as follows:
+
+```python
+(dmg * rpm) // accuracy
+```

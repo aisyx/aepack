@@ -1,0 +1,220 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "gunshopmechanism": {
+        "default": "idle",
+        "states": {
+          "draw": {
+            "frames": 20,
+            "cycle": 1,
+            "mode": "transition",
+            "transition": "idle"
+          },
+          "idle": {
+            "frames": 20,
+            "cycle": 1,
+            "mode": "loop"
+          },
+          "firing": {
+            "frames": 4,
+            "cycle": 0.2,
+            "mode": "transition",
+            "transition": "idle"
+          },
+          "reload": {
+            "frames": 80,
+            "cycle": 4,
+            "mode": "transition",
+            "transition": "idle"
+          }
+        }
+      }
+    },
+    "parts": {
+      "scope": {
+        "properties": {
+          "centered": true,
+          "offset": [ 1.2, 0.6 ],
+          "zLevel": 0,
+          "transformationGroups": [ "weapon" ]
+        },
+        "partStates": {
+          "gunshopmechanism": {
+            "draw": {
+              "properties": {
+                "image": "<partImage>"
+              }
+            },
+            "idle": {
+              "properties": {
+                "image": "<partImage>"
+              }
+            },
+            "firing": {
+              "properties": {
+                "image": "<partImage>"
+              }
+            },
+            "reload": {
+              "properties": {
+                "image": "<partImage>"
+              }
+            }
+          }
+        }
+      },
+      "body": {
+        "properties": {
+          "centered": true,
+          "offset": [ -0.1, 0.1 ],
+          "zLevel": 0.5,
+          "transformationGroups": [ "weapon" ]
+        },
+        "partStates": {
+          "gunshopmechanism": {
+            "draw": {
+              "properties": {
+                "image": "<partImage>:draw.<frame>"
+              }
+            },
+            "idle": {
+              "properties": {
+                "image": "<partImage>:default.<frame>"
+              }
+            },
+            "firing": {
+              "properties": {
+                "image": "<partImage>:firing.<frame>"
+              }
+            },
+            "reload": {
+              "properties": {
+                "image": "<partImage>:reload.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "mag": {
+        "properties": {
+          "centered": true,
+          "offset": [ 0.5, 0.3 ],
+          "zLevel": 0.4,
+          "transformationGroups": [ "weapon" ]
+        },
+        "partStates": {
+          "gunshopmechanism": {
+            "draw": {
+              "properties": {
+                "image": "<partImage>:draw.<frame>"
+              }
+            },
+            "idle": {
+              "properties": {
+                "image": "<partImage>:default.<frame>"
+              }
+            },
+            "firing": {
+              "properties": {
+                "image": "<partImage>:firing.<frame>"
+              }
+            },
+            "reload": {
+              "properties": {
+                "image": "<partImage>:reload.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "barrel": {
+        "properties": {
+          "centered": true,
+          "offset": [ 1.2, 0.6 ],
+          "zLevel": 0,
+          "transformationGroups": [ "weapon" ]
+        },
+        "partStates": {
+          "gunshopmechanism": {
+            "draw": {
+              "properties": {
+                "image": "<partImage>"
+              }
+            },
+            "idle": {
+              "properties": {
+                "image": "<partImage>"
+              }
+            },
+            "firing": {
+              "properties": {
+                "image": "<partImage>"
+              }
+            },
+            "reload": {
+              "properties": {
+                "image": "<partImage>"
+              }
+            }
+          }
+        }
+      },
+      "flash": {
+        "properties": {
+          "centered": true,
+          "offset": [ 4.1, 0.8 ],
+          "zLevel": 1,
+          "fullbright": true,
+          "transformationGroups": [ "weapon" ]
+        },
+        "partStates": {
+          "gunshopmechanism": {
+            "firing": {
+              "properties": {
+                "image": "<partImage>:<variants>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rotationGroups": {
+    "weapon": {
+      "angularVelocity": 0
+    }
+  },
+  "transformationGroups": {
+    "weapon": {}
+  },
+  "particleEmitters": {
+    "smoke": {
+      "transformationGroups": [ "weapon" ],
+      "emissionRate": 10,
+      "zLevel": 10,
+      "offsetRegion": [ 0.8, 0.8, 0.6, 0.8 ],
+      "particles": [ { "particle": "gs_smoke" } ]
+    },
+    "ember": {
+      "transformationGroups": [ "weapon" ],
+      "emissionRate": 5,
+      "zLevel": 11,
+      "offsetRegion": [ 0.8, 0.8, 0.6, 0.8 ],
+      "particles": [ { "particle": "gs_ember" } ]
+    },
+    "smoke2": {
+      "transformationGroups": [ "weapon" ],
+      "emissionRate": 10,
+      "zLevel": 10,
+      "offsetRegion": [ 2.7, 0.8, 2.7, 0.8 ],
+      "particles": [ { "particle": "gs_frontsmoke" } ]
+    },
+    "ember2": {
+      "transformationGroups": [ "weapon" ],
+      "emissionRate": 10,
+      "zLevel": 11,
+      "offsetRegion": [ 2.7, 0.8, 2.7, 0.8 ],
+      "particles": [ { "particle": "gs_frontember" } ]
+    }
+  }
+}

@@ -1,7 +1,0 @@
-# Package data:
-_*  merge=ours
-.*  merge=ours
-
-# Repository data:
-LICENSE   merge=ours
-README.md merge=ours

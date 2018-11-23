@@ -9,6 +9,12 @@ The following guns have been completed:
 
 To see just the assets used for each weapon, they have been isolated to their own branches (e.g., `feature/gs_dks501`).
 
+
+## Issues
+
+Report all issues and feature requests on the [workshop page](https://steamcommunity.com/sharedfiles/filedetails/discussions/1460586609).
+
+
 ## Licensing
 
 ![CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
